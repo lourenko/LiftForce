@@ -1,0 +1,16 @@
+
+body:after {
+  width: 200px;
+  height: 75px;
+  content: url(../images/footer.png);
+  position: fixed;
+  top: 0.5em;
+  right: 0.5em;
+  /*bottom: 0.5em;
+  left: 0.5em;*/
+  box-shadow: 5px 5px 10px #000;
+  background:none; border:none; box-shadow:none;
+}
+
+  
+

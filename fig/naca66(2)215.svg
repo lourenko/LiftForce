@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 744.09448819 1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="naca66(2)215.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="3.959798"
+     inkscape:cx="95.456565"
+     inkscape:cy="974.33637"
+     inkscape:document-units="px"
+     inkscape:current-layer="g8"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1010"
+     inkscape:window-x="-5"
+     inkscape:window-y="-5"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(5.4,20.862)"
+     id="g6">
+    <g
+       transform="scale(1,-1)"
+       id="g8">
+      <path
+         fill="none"
+         stroke="red"
+         stroke-width="0.18"
+         d="M 180 0 L 171.05 1.59 L 162.09 3.61 L 153.13 5.76 L 144.14 7.91 L 135.15 9.95 L 126.14 11.78 L 117.11 13.32 L 108.08 14.45 L 99.04 15.08 L 90 15.4 L 80.96 15.46 L 71.91 15.3 L 62.91 14.9 L 53.83 14.27 L 44.79 13.39 L 35.76 12.22 L 26.74 10.72 L 17.73 8.77 L 13.23 7.56 L 8.74 6.14 L 4.27 4.35 L 2.04 3.2 L 1.16 2.54 L 0.73 2.1 L 0 0 L 1.07 -1.92 L 1.54 -2.28 L 2.46 -2.82 L 4.73 -3.68 L 9.26 -5.01 L 13.77 -6.04 L 18.27 -6.91 L 27.26 -8.3 L 36.24 -9.36 L 45.21 -10.16 L 54.17 -10.77 L 63.13 -11.2 L 72.09 -11.45 L 81.04 -11.52 L 90 -11.42 L 98.96 -11.14 L 107.92 -10.6 L 116.89 -9.62 L 125.87 -8.29 L 134.85 -6.72 L 143.86 -5.04 L 152.87 -3.34 L 161.91 -1.75 L 170.95 -0.45 L 180 0 "
+         id="path36"
+         style="stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none" />
+      <path
+         fill="none"
+         stroke="blue"
+         stroke-width="0.18"
+         d="M 0 0 L 180 0 "
+         id="path38"
+         style="stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none" />
+      <path
+         fill="none"
+         stroke="rgb(120,120,0)"
+         stroke-width="0.18"
+         d="M 0 0 L 0.73 1.05 L 1.16 0.27 L 2.04 0.31 L 4.27 0.42 L 8.74 0.65 L 13.23 0.83 L 17.73 0.98 L 26.74 1.25 L 35.76 1.46 L 44.79 1.63 L 53.83 1.76 L 62.91 1.86 L 71.91 1.93 L 80.96 1.97 L 90 1.99 L 99.04 1.97 L 108.08 1.94 L 117.11 1.87 L 126.14 1.77 L 135.15 1.64 L 144.14 1.46 L 153.13 1.23 L 162.09 0.94 L 171.05 0.57 L 180 0 "
+         id="path40"
+         style="stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none" />
+      <line
+         fill="none"
+         stroke="black"
+         stroke-width="0.18"
+         x1="-5.4"
+         x2="185.4"
+         y1="0"
+         y2="0"
+         id="line42"
+         style="stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none" />
+      <line
+         fill="none"
+         stroke="black"
+         stroke-width="0.18"
+         x1="0"
+         x2="0"
+         y1="-16.92"
+         y2="20.86"
+         id="line44"
+         style="stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none" />
+    </g>
+  </g>
+</svg>

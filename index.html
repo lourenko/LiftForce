@@ -1,0 +1,397 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>Sustentação</title>
+
+    <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+    <meta name="author" content="Hakim El Hattab">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/reveal-override.css">
+    <link rel="stylesheet" href="css/theme/beige.css" id="theme">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/solarized-light.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+var link = document.createElement( 'link' );
+link.rel = 'stylesheet';
+link.type = 'text/css';
+link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+    <!--[if lt IE 9]>
+      <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+
+<style>
+    /*.reveal .slides section .fragment.fade-down {
+        opacity: 1;
+        visibility: visible;
+    }
+    .reveal .slides section .fragment.fade-down.visible,
+    .reveal .slides section .fragment.visible:not(.current-fragment) {
+        color: grey;
+    }
+    .reveal .slides section .fragment.fade-down,
+    .reveal .slides section .fragment.current-fragment {
+        color: #1b91ff;
+    }*/
+section#my-file-format img {
+        /*position: absolute;
+        left: 0;
+        right: 0;
+        min-height: 500px;*/
+}
+/*.reveal section img {background:none; border:none; box-shadow:none;}*/
+#esquerda {position:absolute; margin:0 auto; left: 0px;}
+#noborder {background:none; border:none; box-shadow:none;}
+#fileira {background:none; border:none; box-shadow:none; position:absolute; top:0; left:0;}
+</style>
+
+  <body>
+    <div class="reveal">
+      <div class="slides">
+<!--section>
+    <p class="fragment grow">grow</p>
+    <p class="fragment shrink">shrink</p>
+    <p class="fragment roll-in">roll-in</p>
+    <p class="fragment fade-out">fade-out</p>
+    <p class="fragment highlight-red">highlight-red</p>
+    <p class="fragment highlight-green">highlight-green</p>
+    <p class="fragment highlight-blue">highlight-blue</p>
+</section-->
+<!--section>
+  <h2 class="fragment" data-fragment-index="0">Highlight First Line Test</h2>
+  <p class="fragment" data-fragment-index="1">Want this line visible <i>and</i> colour highlighted on slide entry</p>
+  <p class="fragment">Appears 2nd with colour highlight</p>
+</section-->
+<!-- controls id="video"-->
+$$\newcommand{\Vol}{\rotatebox[origin=c]{180}{\ensuremath{A}}}$$
+$$\newcommand{\vv}[1]{\overset{→}{#1}}$$
+$$\require{cancel}$$
+<section>
+  <h1>Sustentação</h1>
+  <h3>Mecânica dos Fluidos 2</h3>
+  <p>
+  <!--small>Prof. <a href="http://paginapessoal.utfpr.edu.br/mlourenco/fenomenos-de-transporte">Marcos Lourenço</a></small-->
+  </p>
+  <table border="1">
+    <tr>
+      <td class="padding">
+        <center><p><img src="images/harpia.jpg" align="bottom" height=300></p></center>
+      </td>
+      <td class="padding">
+        <center><p><img src="images/garras.jpg" align="bottom" height=300></p></center>
+      </td>
+    </tr>
+  </table>
+</section>
+<section>
+  <h2>Sustentação </h2>
+  <b>Força perpendicular ao escoamento</b>
+  $$
+  C_L\equiv {{F_L}\over{{1\over 2}\rho V^2 A_p}}
+  \tag{1}
+  $$
+  $ C_{L} $ <font color="#cc3300">equivale à variação quadrática de</font> $ V $ <font color="#cc3300">!</font>
+</section>
+<section>
+  <h2>Sustentação em aerofólios </h2>
+  <figure>
+    <img alt="" src="./images/KC-390.jpg" width="400">&nbsp;
+    <img alt="" src="./images/Airfoil.svg" width="500" class="fragment visible current-fragment" data-fragment-index="1">
+    <figcaption>$$C_L=f(Re,\alpha)$$</figcaption>
+  </figure>
+</section>
+<section>
+  <h2>Sustentação em aerofólios </h2>
+  <ul>
+    <p><li class="fragment"> $ \alpha $ é o ângulo entre a <font color="#cc3300">corda</font> e o escoamento;</li>
+    <p><li class="fragment"> Sua espessura é distribuída ao longo de uma <font color="#cc3300">linha média</font>;</li>
+    <p><li class="fragment"> <font color="#cc3300">Cambado</font> é um aerofólio de linha média curva;</li>
+    <p><li class="fragment"> <font color="#cc3300">Área planiforme</font> é a máxima área projetada para o perfil;</li>
+    <p><li class="fragment"> Na Eq. <a href="#mjx-eqn-1">(1)</a> essa é a área utilizada, devido à variação do ângulo de ataque.</li>
+  </ul>
+</section>
+<section>
+  <h4>Efeito <em>Bernoulli</em> </h4>
+  <div>
+    <video loop controls width='640' height='475' preload='none'>
+      <source src='movies/streamOverAirfoil.mp4'  type='video/mp4;  codecs="avc1.42E01E, mp4a.40.2"'>
+    </video>
+  </div>
+  <p><em>Maior pressão no <font color="#cc3300">intradorso</font> ou <font color="#cc3300">superfície de pressão</font> e menos no <font color="#cc3300">extradorso</font> ou <font color="#cc3300">superfície de sucção</font>. <div id="vid:stream"></div></em></p>
+</section>
+<section>
+  <p>
+  Perfis dos tipos <font color="#cc3300">convencional</font> e <font color="#cc3300">laminar</font>. Seus polares <font color="#cc3300">sustentação-arrasto</font> são mostrados abaixo também.
+  </p>
+    <figure><img src="images/nacompara.png" align="bottom" height=425>
+    <figurecaption><p class="caption">Figure 1:  Ambos os perfis NACA cambados para gerar <b>sustentação</b>. </p></figurecaption>
+    </figure>
+</section>
+<section>
+  <h3>Região de <em>estol</em> </h3>
+  <p>
+  <center><p><img style="background:none; border:none; box-shadow:none;" src="images/9_17a.svg" align="bottom" height=575></p></center>
+</section>
+<section>
+  <h3>Região de <em>estol</em> </h3>
+  <p>
+  <center><p><img style="background:none; border:none; box-shadow:none;" src="images/9_17b.svg" align="bottom" height=575></p></center>
+</section>
+<section>
+  <h3 id="___sec7">Região de <em>estol</em> </h3>
+  <p>
+  <center><p><img class="stretch"
+           style="background:none; border:none; box-shadow:none;" src="images/9_18.svg" align="bottom" height=525></p></center>
+</section>
+<section>
+  <h4>Efeitos do descolamento em aerofólios </h4>
+  <ul>
+    <p><li class="fragment"> $ C_D $ aumenta subitamente com o <font color="#cc3300">gradiente adverso</font>;</li>
+    <p><li class="fragment"> Perfis laminares são projetados para regiões de baixo arrasto;</li>
+    <p><li class="fragment"> Devido às bordas agudas, instabilidades são amplificadas em perfis laminares;</li>
+    <p><li class="fragment"> Perfis laminares possuem um valor menor de $ C_{L,max} $;</li>
+    <p><li class="fragment"> Dados $ m $ e $ \vv{V} $, a potência requerida para vôo é inversamente proporcional à $ C_L \over C_D $.</li>
+  </ul>
+</section>
+<section>
+  <h2>Otimização de aerofólios </h2>
+  <ul>
+    <p><li class="fragment"> Realizada geralmente por análise numérica;</li>
+    <p><li class="fragment"> A transição é retardada até uma região próxima ao <font color="#cc3300">bordo de fuga</font>;</li>
+    <p><li class="fragment"> Uma vez turbulento, o escoamento é mantido em um estado embrionário;</li>
+    <p><li class="fragment"> Aí consegue-se, controlando a pressão, chegar a valores próximos de zero para o arrasto.</li>
+  </ul>
+</section>
+<section>
+  <h2>Efeitos de ponta de asa </h2>
+  <ul>
+    <p><li class="fragment"> Asas reais não possuem envergadura infinita;</li>
+    <p><li class="fragment"> Estruturas nas extremidades da asa contribuem para
+            o aumento de $ C_D $ e diminuição de $ C_L $;</li>
+    <p><li class="fragment"> Geralmente são correlacionados pela razão de
+            aspecto (da asa) $ ar\equiv {b^2\over A_p} $;</li>
+    <p><li class="fragment"> Ou seja, para uma seção planiforme de envergadura
+            <em>b</em> e corda <em>c</em>, teremos $ ar\equiv {b\over c} $</li>
+  </ul>
+</section>
+<section>
+  <h4>Efeitos de envergadura </h4>
+  <ul>
+    <p><li class="fragment"> Valores de $ C_L \over C_D $ podem chegar a 400 se a envergadura for infinita;</li>
+    <p><li class="fragment"> Planadores de alto desempenho com $ ar=40 $ possuem
+            $C_L \over C_D \approx 40 $;</li>
+    <p><li class="fragment"> Aviões comuns com $ ar=12 $ apresentam $ C_L \over
+            C_D \approx 20 $;</li>
+    <p><li class="fragment"> Hidrofólios e corpos de reentrada atmosférica podem
+            possuir $ C_L \over C_D < 1 $.</li>
+  </ul>
+</section>
+<section>
+  <h4>Vórtices de fuga </h4>
+  <ul>
+    <p><li class="fragment"> Uma asa pode gerar <font color="#cc3300">vórtices de fuga</font> (sustentação);</li>
+    <p><li class="fragment"> Estes podem atingir aeronaves de <b>8 km</b> a <b>16 km</b>;</li>
+    <p><li class="fragment"> Tais vórtices possuem velocidades de até <b>320 km/h</b>;</li>
+  </ul>
+  <p>
+  <center><p><img style="background:none; border:none; box-shadow:none;" src="images/e175.jpg" align="bottom" height=375></p></center>
+</section>
+<section>
+  <h2>Arrasto induzido </h2>
+  <p>
+  <center><p><img style="background:none; border:none; box-shadow:none;" src="images/fig920.svg" align="bottom" height=575></p></center>
+</section>
+<section>
+  <h2>Arrasto induzido </h2>
+  <ul>
+    <p><li> As velocidade induzidas para baixo reduzem o ângulo de ataque efetivo;</li>
+    <p><li> Comparando com uma asa de $ar=\infty$:</li>
+  </ul>
+  <p>
+  $$\Delta \alpha \approx {C_L \over \pi ar}$$
+  </p>
+  <p class="fragment">e o arrasto total será aumentado de:<br>
+  $$\Delta C_D \approx \Delta \alpha C_L \approx {C_{L}^{2} \over \pi ar}$$
+  </p>
+</section>
+<section>
+  <h2>Arrasto induzido </h2>
+  <p>
+  <center><p><img style="background:none; border:none; box-shadow:none;" src="images/fig921.svg" align="bottom" height=575></p></center>
+</section>
+<section>
+  <h2>Condições de vôo </h2>
+  <ul>
+    <p><li> O arrasto varia pouco com $ \alpha $, sendo mais dependente de $ Re $;</li>
+    <p><li> Para condições de vôo estável:</li>
+  </ul>
+  $$W = F_L = {1\over 2}C_L\rho A_p V^2$$
+  <p>e a velocidade <font color="#cc3300">mínima</font> para manter o arrasto será:</p>
+  $$V_{min} =\sqrt{2W\over \rho A_p C_{L,max}}$$
+</section>
+<section>
+  <h4>Condições de vôo</h4>
+  Duas soluções bastante adotadas são:
+  <ol>
+    <p><li class="fragment"> Seções de asa com geometria variável (<b>flaps</b>);</li>
+    <p><li class="fragment"> Técnicas de controle de camada limite.</li>
+  </ol>
+  <figure class="fragment"><img style="background:none; border:none; box-shadow:none;" src="images/fig922.svg" align="bottom" height=400></figure>
+</section>
+<section>
+  <h4>Condições de vôo </h4>
+  <p>
+  <figure><img style="background:none; border:none; box-shadow:none;" src="images/fig923.svg" align="bottom" height=660></figure>
+</section>
+<section>
+  <h4>Condições de vôo </h4>
+  <ul>
+    <p><li class="fragment"> Para o perfil <b>NACA23012</b>, a utilização de flapes duplos aumenta o \( C_{L,max} \) de 1,52 para 3,48;</li>
+    <p><li class="fragment"> Isso equivale a uma redução de 34% na velocidade necessária para aterissagem;</li>
+    <p><li class="fragment"> Para $ C_{L,max} $, tem-se $ C_{D}\approx 0,28 $
+            utilizando flapes e $ C_{D}\approx 0,005 $ sem flapes</li> 
+  </ul>
+</section>
+<section>
+  <h4>Estabilidade aerodinâmica </h4>
+  <iframe width="640" height="625" src="https://youtube.com/embed/Nbk8zSRCytA?list=PLf7jBK9nFbz_3iYK1ZPoMQ23MXVa5CwqT" frameborder="0" allowfullscreen></iframe>
+  <p><em>BBLTTNCFSMPAM <div id="vid:stream3"></div></em></p>
+</section>
+<section>
+  <h2>Sustentação sobre automóveis </h2>
+  <center><p><img style="background:none; border:none; box-shadow:none;" src="images/fig925.svg" align="bottom" height=575></p></center>
+</section>
+<section>
+  <h4>Esfera em rotação </h4>
+  <center><p><img style="background:none; border:none; box-shadow:none; background-position:left;" src="images/fig927.svg" align="bottom" height=495></p></center>
+</section>
+<section>
+  <h4>Esfera em rotação </h4>
+  <table border="1">
+    <tr>
+      <td class="padding">
+        <center><p><img style="background:none; border:none; box-shadow:none;"
+          src="images/fig928.svg" align="bottom" height=595></p></center>
+      </td>
+      <td class="padding">
+        <center><p><img style="background:none; border:none; box-shadow:none;"
+          src="images/fig929.svg" align="bottom" height=595></p></center>
+      </td>
+    </tr>
+  </table>
+</section>
+<section>
+  <h4> Sustentação - Arrasto em aves </h4>
+  <div>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/d_FEaFgJyfA?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+  <p><em>How Does An Owl Fly So Silently?<div id="vid:stream3"></div></em></p>
+  </div>
+</section>
+<section>
+  <h4>Efeito Solo (Ground Effect) </h4>
+  <div>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/fFjDoRmZVGE?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+  <p><em>Super Efeito Solo<div id="vid:stream3"></div></em></p>
+  </div>
+</section>
+<section>
+  <h4>Efeito Cabo (Cabe Effect) </h4>
+  <div>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/v5aMT9MBfZI?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+    <p><em>Helicopter Crash'<div id="vid:stream3"></div></em></p>
+  </div>
+</section>
+<!--section>
+  <h4>Homem <em>versus</em> Arrasto+Sustentação </h4>
+  <div>
+    <video loop controls width='640' height='625' preload='none'>
+      <source src='movies/humanpower.mp4'  type='video/mp4;  codecs="avc1.42E01E, mp4a.40.2"'>
+    </video>
+  </div>
+  <p><em>Projeto de 1988 <div id="vid:stream1"></div></em></p>
+</section>
+<section>
+  <h4>Pássaro Mecânico </h4>
+  <video width="800" height="600" data-autoplay loop controls>
+    <source data-src="movies/smartbird2.mp4" type="video/mp4" />
+  </video>
+    <video autoplay loop controls width='640' height='625' preload='none'>
+      <source src='movies/smartbird2.mp4'  type='video/mp4;  codecs="avc1.42E01E, mp4a.40.2"'>
+    </video>
+  <p>Existem outros mais atuais.</p>
+</section-->
+<!--section>
+  <h4>Drone </h4>
+    <video autoplay loop controls width='640' height='625' preload='none'>
+      <source src='movies/butters2.mp4'  type='video/mp4;  codecs="avc1.42E01E, mp4a.40.2"'>
+    </video>
+  <p>BBLTTNCFSMPAM</p>
+</section-->
+<section>
+  <div class="container">
+    <h1 class="fragment fade-in current-fragment" data-fragment-index="0">Dúvidas?</h1>
+    <hr class="fragment visible current-fragment" data-fragment-index="0">
+    <p>Apresentação na  <a href="http://paginapessoal.utfpr.edu.br/mlourenco/fenomenos-de-transporte">@paginapessoal</a>
+    <br>Livro texto: <a href="http://www.saraiva.com.br/introducao-a-mecanica-dos-fluidos-8-ed-2014-6975691.html">Fox - Introdução à mecânica dos fluidos</a>
+    </p>
+    <hr class="fragment visible current-fragment" data-fragment-index="0">
+    <p class="fragment visible current-fragment" data-fragment-index="0">
+    </p>
+  </div>
+</section>
+      </div>
+    </div>
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+
+    <script>
+// More info https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+  controls: false,
+  history: true,
+  transition: 'fade',
+  loop: true,
+  keyboard: true,
+
+  math: {
+    mathjax: 'plugin/unpacked/MathJax.js',
+    config: 'TeX-MML-AM_SVG'  // See http://docs.mathjax.org/en/latest/config-files.html
+  },
+
+  // More info https://github.com/hakimel/reveal.js#dependencies
+  dependencies: [
+  { src: 'plugin/markdown/marked.js' },
+  { src: 'plugin/markdown/markdown.js' },
+  { src: 'plugin/math/math.js', async: true },
+  { src: 'plugin/notes/notes.js', async: true },
+  { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+  ]
+});
+
+Reveal.configure({
+  keyboard: {
+    13: 'next', // go to the next slide when the ENTER key is pressed
+    190: 'toggleOverview', // do something custom when PERIOD is pressed
+    27: 'togglePause', // do something custom when ESC is pressed
+    32: function() {
+      if (video.paused == true) video.play();
+      else video.pause();
+    }
+  }
+});
+    </script>
+  </body>
+</html>
